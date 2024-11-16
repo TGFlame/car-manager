@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAuth } from "../components/auth";
 import { useNavigate } from "react-router-dom";
-import { Form, Input, Button, Typography, Divider } from "antd";
+import { Form, Input, Button, Divider } from "antd";
 import './Login.css'
 
 export default function Login() {
